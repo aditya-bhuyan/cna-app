@@ -5,6 +5,7 @@
 #First clean git credentials
 #Second Drop tables
 #Third Clean Workpace folder
+#Four CF Logout
 #CNA - we need to clean the tomee folders and ~/.bashrc last line appended.
 #That couldn't be done by this script
 
@@ -28,4 +29,6 @@ rm -rf ~/workspace/
 
 echo 'Workspace Folder content cleared'
 
-
+#CF Logout
+cf logout
+echo 'Logged Out from Cloud Foundry'
