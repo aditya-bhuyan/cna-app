@@ -29,6 +29,12 @@ rm -rf ~/workspace/
 
 echo 'Workspace Folder content cleared'
 
+#Clean the .zip files from Downloads folder
+rm -rf ~/Downloads/*.zip
+
+echo 'Downloads Folder .zip content cleared'
+
+
 #CF Logout
 cf logout
 echo 'Logged Out from Cloud Foundry'
