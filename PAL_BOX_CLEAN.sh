@@ -34,6 +34,9 @@ rm -rf ~/Downloads/*.zip
 
 echo 'Downloads Folder .zip content cleared'
 
+#Clean Trash
+rm -rf ~/.local/share/Trash/*
+echo 'Deleted Trash Floder'
 
 #CF Logout
 cf logout
